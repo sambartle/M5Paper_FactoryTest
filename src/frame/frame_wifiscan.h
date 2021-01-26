@@ -18,7 +18,6 @@ public:
 
 private:
     EPDGUI_Button *_key_wifi[14];
-    uint8_t _language;
     uint32_t _scan_count = 0;
     bool _connect;
     uint8_t _connected;
